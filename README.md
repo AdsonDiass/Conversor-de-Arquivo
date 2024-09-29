@@ -1,23 +1,18 @@
-**Conversor de PDF para TXT e Excel**
-Este projeto é um conversor de arquivos PDF para os formatos de texto (.txt) e Excel (.xlsx), desenvolvido em Python. Ele utiliza uma interface gráfica simples para permitir a seleção de arquivos PDF e salvar o arquivo convertido em uma pasta local.
+Conversor de PDF para TXT e Excel
+Este projeto é um conversor de arquivos PDF para os formatos de Texto (.txt) e Excel (.xlsx), desenvolvido em Python. Ele oferece uma interface gráfica amigável que permite ao usuário selecionar arquivos PDF e salvar o conteúdo convertido de forma prática.
 
-**Funcionalidades**
-Converter arquivos PDF para formato de texto (.txt).
-Converter arquivos PDF para formato Excel (.xlsx).
-Interface gráfica simples para facilitar a seleção de arquivos.
-Capturas de Tela
-Interface Gráfica
-
-**Tecnologias Utilizadas**
+:clipboard: Funcionalidades
+Converter PDFs para Texto (.txt)
+Converter PDFs para Excel (.xlsx)
+Interface gráfica simples para selecionar arquivos e escolher o local de salvamento
+:computer: Tecnologias Utilizadas
 Python 3.x
-pdfplumber: Para extração de texto de arquivos PDF.
-pandas: Para manipulação de dados e conversão para Excel.
-tkinter: Para criar a interface gráfica e permitir a seleção de arquivos.
-
-
-**Como Usar**
-Ao iniciar o programa, uma janela será aberta.
+pdfplumber: Para extração de texto dos arquivos PDF
+pandas: Para manipulação de dados e conversão para Excel
+tkinter: Para criar a interface gráfica e facilitar a seleção de arquivos pelo usuário
+:gear: Como Usar
+Ao iniciar o programa, uma janela será exibida.
 Escolha se deseja converter o PDF para .txt ou .xlsx.
 Selecione o arquivo PDF que deseja converter.
-Escolha o nome e o local para salvar o arquivo convertido.
-Uma mensagem de sucesso será exibida quando a conversão for concluída.
+Escolha o nome e o local onde deseja salvar o arquivo convertido.
+Ao final, uma mensagem de sucesso será exibida indicando que a conversão foi concluída.
